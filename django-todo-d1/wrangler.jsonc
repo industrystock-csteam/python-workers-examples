@@ -1,0 +1,20 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "django-todo-d1-worker",
+	"main": "src/entry.py",
+	"compatibility_date": "2026-07-29",
+	"compatibility_flags": [
+		"python_workers"
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "django-todo-d1",
+			"database_id": "00000000-0000-0000-0000-000000000000", // Replace with your D1 database UUID.
+			"migrations_dir": "./migrations"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}

@@ -1,0 +1,16 @@
+.wrangler
+node_modules
+python_modules
+__pycache__
+CLAUDE.md
+**/uv.lock
+!/uv.lock
+
+pylock.toml
+.venv
+.venv-workers
+.pytest_cache
+.ruff_cache
+
+**/.DS_Store
+**/default.profraw

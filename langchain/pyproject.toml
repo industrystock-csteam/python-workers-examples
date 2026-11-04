@@ -1,0 +1,17 @@
+[project]
+name = "hello-langchain"
+version = "0.1.0"
+description = "Python langchain example"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-cloudflare",
+    "langchain-core",
+    "workers-runtime-sdk>=1.6.8",
+]
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk",
+]
